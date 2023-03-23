@@ -1,0 +1,55 @@
+@font-face {
+    font-family: NorseBold;
+    src: url(Norse-Bold.otf);
+}
+.flexy {
+    display: flex;
+    flex-direction: row;
+}
+.col1 {
+    width: 30%;
+    height: 100vh;
+    background-image: url("images/plant.jpg")
+}
+.odin {
+    height: 20%;
+    background-color: rgba(200, 200, 200, 0.2);
+    margin-top:150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-family: NorseBold, Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-size: 4rem;;
+}
+img[alt=odin]{
+    height: 90%;
+}
+.col2 {
+    width:70%;
+    height:100vh;
+}
+.top {
+    height: 30%;
+    background-color: #F0F0F0;
+}
+form {
+    height: 70%;
+}
+.form {
+    height: 50%;
+    background-color: #FFFFFF;
+}
+.bottom {
+    height:50%;
+    background-color: #F0F0F0;
+}
+button {
+    background-color: #596D48;
+    height: 3em;
+    width: 11em;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
