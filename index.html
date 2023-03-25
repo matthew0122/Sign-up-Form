@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
@@ -26,11 +27,31 @@
             </div>
             <form>
                 <div class="form" action="example.com/path" method="post">
-                    <h1>Let's do this!</h1>
-                    <label for="first-name">First Name</label>
-                    <input type="text" id="first-name">
-                    <label for="last-name">Last Name</label>
-                    <input type="text" id="last-name">
+                    <h1 id="do">Let's do this!</h1>
+                    <span class="first">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name">
+                    </span>
+                    <span class="last">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name">
+                    </span>
+                    <span class="email">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                    </span>
+                    <span class="phone">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </span>
+                    <span class="password">
+                        <label for="pass">Password</label>
+                        <input type="password" id="pass" name="pass">
+                    </span>
+                    <span class="confirm">
+                        <label for="confirm-pass">Confirm Password</label>
+                        <input type="password" id="confirm-pass" name="confirm-pass">
+                    </span>
                 </div>
                 <div class="bottom">
                     <button type="submit">Create Account</button>
