@@ -27,30 +27,31 @@
             </div>
             <form>
                 <div class="form" action="example.com/path" method="post">
-                    <h1 id="do">Let's do this!</h1>
+                    <h1 id="do">Required questions are marked with a *</h1>
                     <span class="first">
-                        <label for="first-name">First Name</label>
-                        <input type="text" id="first-name">
+                        <label for="first-name">*First Name</label>
+                        <input type="text" id="first-name" placeholder="Matthew" required>
                     </span>
                     <span class="last">
-                        <label for="last-name">Last Name</label>
-                        <input type="text" id="last-name">
+                        <label for="last-name">*Last Name</label>
+                        <input type="text" id="last-name" placeholder="Smith" required>
                     </span>
                     <span class="email">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email">
+                        <label for="email">*Email</label>
+                        <input type="email" id="email" name="email" placeholder="me@gmail.com" required>
                     </span>
                     <span class="phone">
-                        <label for="phone">Phone Number</label>
-                        <input type="tel" id="phone" name="phone">
+                        <label for="phone">*Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="999-999-9999" required
+                        pattern="\(?\d{3}\)?[\s,-]?\d{3}[\s,-]?\d{4}">
                     </span>
                     <span class="password">
-                        <label for="pass">Password</label>
-                        <input type="password" id="pass" name="pass">
+                        <label for="pass">*Password</label>
+                        <input type="password" id="pass" name="pass" required>
                     </span>
                     <span class="confirm">
-                        <label for="confirm-pass">Confirm Password</label>
-                        <input type="password" id="confirm-pass" name="confirm-pass">
+                        <label for="confirm-pass">*Confirm Password</label>
+                        <input type="password" id="confirm-pass" name="confirm-pass" required>
                     </span>
                 </div>
                 <div class="bottom">
